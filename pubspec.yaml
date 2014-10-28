@@ -1,0 +1,5 @@
+name: Firebase_chat
+description: A sample Polymer application
+transformers:
+- polymer:
+    entry_points: web/firebase_chat.html
