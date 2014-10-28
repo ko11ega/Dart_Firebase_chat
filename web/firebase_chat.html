@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample app</title>
+
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>   
+    <script src='https://cdn.firebase.com/js/client/1.1.1/firebase.js'></script>
+
+  </head>
+  <body>
+    <h1>Firebase chat</h1>
+    
+    <div id='messagesDiv'></div>
+    <input type='text' id='nameInput' placeholder='Name'>
+    <input type='text' id='messageInput' placeholder='Message'>
+
+    <script type="application/dart" src="firebase_chat.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
